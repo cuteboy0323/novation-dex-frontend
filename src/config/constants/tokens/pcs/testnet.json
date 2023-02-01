@@ -1,0 +1,20 @@
+[
+    {
+        "chainId": 97,
+        "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "decimals": 18,
+        "symbol": "BNB",
+        "name": "BNB",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
+        "projectLink": "https://www.binance.com/"
+    },
+    {
+        "chainId": 97,
+        "address": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+        "decimals": 18,
+        "symbol": "BUSD",
+        "name": "Binance USD",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png",
+        "projectLink": "https://www.paxos.com/busd/"
+    }
+]

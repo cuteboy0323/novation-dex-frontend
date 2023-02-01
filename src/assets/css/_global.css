@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+}
+
+.app-background {
+  position: fixed;
+  left: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  background-color: #01101f;
+  /* background-image: url('assets/img/bg/app-bg.png'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.green-circle {
+  width: 848px;
+  height: 848px;
+  position: absolute;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  background-color: rgba(6, 255, 255, 0.2);
+  filter: blur(125px);
+}
+
+.MuiPickersPopper-paper {
+  background-color: rgba(0, 172, 253, 0.1) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0px -20px 20px -49.2654px rgba(0, 172, 253, 0.15), inset 0px 20px 50px -36.9491px rgba(0, 172, 253, 0.25);
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none !important;
+  background-image: none !important;
+}
+
+.MuiPickersDay-root {
+  font-size: 17px !important;
+  background-color: rgba(0, 172, 253, 0.1) !important;
+  border-radius: 8px !important;
+  transition: .25s !important;
+}
+
+.MuiPickersDay-root:hover {
+  color: black !important;
+  background-color: #00ACFD !important;
+}
+
+.MuiDayPicker-slideTransition {
+  min-height: unset !important;
+  padding-bottom: 24px !important;
+}
+
+.MuiDayPicker-monthContainer {
+  position: relative !important;
+}
+
+.MuiDayPicker-weekDayLabel {
+  color: rgba(0, 172, 253, 0.5) !important;
+  font-size: 17px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1f607c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00ACFD;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 7.32115px rgb(168 252 255 / 50%), inset 0px -20px 20px -49.2654px rgb(0 172 253 / 15%), inset 0px 20px 50px -36.9491px rgb(0 172 253 / 25%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2079ff;
+}

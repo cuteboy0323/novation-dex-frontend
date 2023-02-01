@@ -1,0 +1,11 @@
+[
+    {
+        "chainId": 56,
+        "address": "0x43916De3b9c0b9A2aCdE5D74bF564dD9b6F70649",
+        "decimals": 18,
+        "symbol": "VFX",
+        "name": "Vault Finance Token",
+        "icon": "",
+        "projectLink": "https://bscscan.com"
+    }
+]

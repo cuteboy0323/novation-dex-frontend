@@ -1,0 +1,254 @@
+[
+    {
+        "chainId": 97,
+        "address": "0xf729f4d13a9c9556875d20bacf9ebd0bf891464c",
+        "decimals": 18,
+        "symbol": "BUSDX",
+        "name": "BUSDX"
+    },
+    {
+        "chainId": 97,
+        "address": "0x88479186BAC914E4313389a64881F5ed0153C765",
+        "decimals": 19,
+        "symbol": "SquidGrow",
+        "name": "SquidGrow"
+    },
+    {
+        "chainId": 97,
+        "address": "0x2e9F79aF51dD1bb56Bbb1627FBe4Cc90aa8985Dd",
+        "decimals": 18,
+        "symbol": "SCROOGE JR",
+        "name": "SCROOGE JR"
+    },
+    {
+        "chainId": 97,
+        "address": "0xfA1BA18067aC6884fB26e329e60273488a247FC3",
+        "decimals": 18,
+        "symbol": "SCROOGE",
+        "name": "SCROOGE"
+    },
+    {
+        "chainId": 97,
+        "address": "0x4E6345e00B8DA9b12dcF81D585D15Ea9924B3E80",
+        "decimals": 18,
+        "symbol": "SHC",
+        "name": "ShieldCoin"
+    },
+    {
+        "chainId": 97,
+        "address": "0x5A5844CAb96A7b8B257Fc606Aa6119c5cBc6D4c4",
+        "decimals": 9,
+        "symbol": "BURN",
+        "name": "Bitburn"
+    },
+    {
+        "chainId": 97,
+        "address": "0x5DBeaA03927255cA8aF5aD3821B2A170B44a25a5",
+        "decimals": 9,
+        "symbol": "DFSM",
+        "name": "DFS MAFIA"
+    },
+    {
+        "chainId": 97,
+        "address": "0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5",
+        "decimals": 9,
+        "symbol": "SFM",
+        "name": "SafeMoon"
+    },
+    {
+        "chainId": 97,
+        "address": "0x1de305515a132Db0eD46E9fA2aD2804F066E43E3",
+        "decimals": 9,
+        "symbol": "ADXX",
+        "name": "AnonyDoxx"
+    },
+    {
+        "chainId": 97,
+        "address": "0x5A341DCF49e161CC73591f02e5f8CDE8A29733fb",
+        "decimals": 9,
+        "symbol": "RTO",
+        "name": "Reflecto"
+    },
+    {
+        "chainId": 97,
+        "address": "0x4Be8c674C51674bEb729832682bBA5E5b105b6e2",
+        "decimals": 9,
+        "symbol": "RUSD",
+        "name": "REFLECTO USD"
+    },
+    {
+        "chainId": 97,
+        "address": "0xC001BBe2B87079294C63EcE98BdD0a88D761434e",
+        "decimals": 9,
+        "symbol": "EGC",
+        "name": "EverGrow Coin"
+    },
+    {
+        "chainId": 97,
+        "address": "0x988f7c894e4001eeb7b570cde80dffe21cf7b6b9",
+        "decimals": 9,
+        "symbol": "LCR",
+        "name": "LUCRO"
+    },
+    {
+        "chainId": 97,
+        "address": "0xF04Cb10B76F1BF04B7954E2aF5D1ec3f4D967a68",
+        "decimals": 18,
+        "symbol": "Rodeo",
+        "name": "RodeoCoin"
+    },
+    {
+        "chainId": 97,
+        "address": "0xcbd8aece0c920eef3f215ad4e7319052bd8eaa74",
+        "decimals": 9,
+        "symbol": "Y-5",
+        "name": "Y-5 FINANCE"
+    },
+    {
+        "chainId": 97,
+        "address": "0xc41AB777C7d1d5e04414a14FC6Fa4c93766fb1Eb",
+        "decimals": 18,
+        "symbol": "Y5TT",
+        "name": "Y5 TRADER TOKEN"
+    },
+    {
+        "chainId": 97,
+        "address": "0x21d9Cb3F11a19323C9f222A30Cf9471430f4AB54",
+        "decimals": 18,
+        "symbol": "RMTX",
+        "name": "Rematic v3"
+    },
+    {
+        "chainId": 97,
+        "address": "0xebA996ad44A3Aef432a853D2D42f6bD30Bc7c990",
+        "decimals": 18,
+        "symbol": "RFTX",
+        "name": "Rematic Finance"
+    },
+    {
+        "chainId": 97,
+        "address": "0x4b7d697635e6b9965d13e0655F538149dE425F4E",
+        "decimals": 9,
+        "symbol": "DWT",
+        "name": "DiveWallet Token"
+    },
+    {
+        "chainId": 97,
+        "address": "0x69104fb28f4BB9f6efc899bd1d94f386CDF1b9dA",
+        "decimals": 5,
+        "symbol": "KYOTO",
+        "name": "Kyotoprotocol"
+    },
+    {
+        "chainId": 97,
+        "address": "0x07335a076184c0453ae1987169d9c7ab7047a974",
+        "decimals": 18,
+        "symbol": "BBFT",
+        "name": "BUSD Buffet"
+    },
+    {
+        "chainId": 97,
+        "address": "0x400e6d89d6Ca49Ad999A2D19c8a7AFc711002A2A",
+        "decimals": 9,
+        "symbol": "A11",
+        "name": "Apollo Ventures"
+    },
+    {
+        "chainId": 97,
+        "address": "0xF14D3692B0055Db9Ca4c04065165d59B87E763f1",
+        "decimals": 18,
+        "symbol": "MBC",
+        "name": "MetaBUSDCoin"
+    },
+    {
+        "chainId": 97,
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18,
+        "symbol": "BUSD",
+        "name": "BUSD Token"
+    },
+    {
+        "chainId": 97,
+        "address": "0x55d398326f99059fF775485246999027B3197955",
+        "decimals": 18,
+        "symbol": "USDT",
+        "name": "Tether USD"
+    },
+    {
+        "chainId": 97,
+        "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "decimals": 18,
+        "symbol": "USDC",
+        "name": "USD Coin"
+    },
+    {
+        "chainId": 97,
+        "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "decimals": 18,
+        "symbol": "ETH",
+        "name": "Ethereum Token"
+    },
+    {
+        "chainId": 97,
+        "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "decimals": 18,
+        "symbol": "BTCB",
+        "name": "BTCB Token"
+    },
+    {
+        "chainId": 97,
+        "address": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "decimals": 18,
+        "symbol": "MATIC",
+        "name": "Matic Token"
+    },
+    {
+        "chainId": 97,
+        "address": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
+        "decimals": 18,
+        "symbol": "AVAX",
+        "name": "Avalanche"
+    },
+    {
+        "chainId": 97,
+        "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+        "decimals": 18,
+        "symbol": "DOT",
+        "name": "Polkadot Token"
+    },
+    {
+        "chainId": 97,
+        "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+        "decimals": 18,
+        "symbol": "XRP",
+        "name": "XRP Token"
+    },
+    {
+        "chainId": 97,
+        "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+        "decimals": 18,
+        "symbol": "ADA",
+        "name": "Cardano Token"
+    },
+    {
+        "chainId": 97,
+        "address": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63",
+        "decimals": 18,
+        "symbol": "NEAR",
+        "name": "NEAR Protocol"
+    },
+    {
+        "chainId": 56,
+        "address": "0x16fC5da7976dEb95188c14757e8504c86DB0359A",
+        "decimals": 18,
+        "symbol": "RMC",
+        "name": "Reward Miner Coin"
+    },
+    {
+        "chainId": 56,
+        "address": "0xD1c0c25c5d7BA21df222Bd2623eCBC0CB264b5f4",
+        "decimals": 18,
+        "symbol": "BURNING",
+        "name": "EthBurn"
+    }
+]

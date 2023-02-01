@@ -1,0 +1,90 @@
+[
+    {
+        "chainId": 56,
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "symbol": "BNB",
+        "name": "BNB",
+        "apiId": "binancecoin",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
+        "projectLink": "https://www.binance.com/",
+        "main": true
+    },
+    {
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18,
+        "symbol": "ETH",
+        "name": "Wrapped Ether",
+        "icon": "/eth.svg",
+        "projectLink": "https://weth.io/",
+        "main": true
+    },
+    {
+        "chainId": 1,
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "decimals": 6,
+        "symbol": "USDT",
+        "name": "Tether USD",
+        "icon": "",
+        "projectLink": "https://truedefi.io/"
+    },
+    {
+        "chainId": 25,
+        "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+        "decimals": 18,
+        "symbol": "CRO",
+        "name": "Wrapped CRO",
+        "icon": "/cro.svg",
+        "projectLink": "https://chain.crypto.com/",
+        "main": true
+    },
+    {
+        "chainId": 137,
+        "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "decimals": 18,
+        "symbol": "MATIC",
+        "name": "Wrapped Matic",
+        "icon": "",
+        "projectLink": "https://polygon.technology/",
+        "main": true
+    },
+    {
+        "chainId": 43114,
+        "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+        "decimals": 18,
+        "symbol": "AVAX",
+        "name": "Wrapped AVAX",
+        "icon": "",
+        "projectLink": "https://www.avax.network/",
+        "main": true
+    },
+    {
+        "chainId": 250,
+        "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+        "decimals": 18,
+        "symbol": "FTM",
+        "name": "Wrapped Fantom",
+        "icon": "",
+        "projectLink": "https://fantom.foundation/defi/",
+        "main": true
+    },
+    {
+        "chainId": 56,
+        "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "decimals": 18,
+        "symbol": "BUSD",
+        "name": "Binance-Peg BUSD Token",
+        "icon": "",
+        "projectLink": "https://truedefi.io/"
+    },
+    {
+        "chainId": 56,
+        "address": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
+        "decimals": 8,
+        "symbol": "DOGE",
+        "name": "Binance-Peg Dogecoin Token",
+        "icon": "",
+        "projectLink": "https://truedefi.io/"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "chainId": 56,
+        "address": "0xe06f46AFD251B06152B478d8eE3aCea534063994",
+        "decimals": 18,
+        "symbol": "VFX",
+        "name": "Vault Finance",
+        "icon": "",
+        "projectLink": "https://www.thevaultfinance.com/"
+    },
+    {
+        "chainId": 56,
+        "address": "0xD23a8017B014cB3C461a80D1ED9EC8164c3f7A77",
+        "decimals": 5,
+        "symbol": "TEFI",
+        "name": "True Defi",
+        "icon": "https://app.truedefi.io/favicon.png",
+        "projectLink": "https://truedefi.io/"
+    }
+]

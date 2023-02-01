@@ -1,0 +1,64 @@
+useEffect(() => {
+    (async () => {
+        const tokens = [
+            '0xf729f4d13a9c9556875d20bacf9ebd0bf891464c',
+            '0x88479186BAC914E4313389a64881F5ed0153C765',
+            '0x2e9F79aF51dD1bb56Bbb1627FBe4Cc90aa8985Dd',
+            '0xfA1BA18067aC6884fB26e329e60273488a247FC3',
+            '0x4E6345e00B8DA9b12dcF81D585D15Ea9924B3E80',
+            '0x5A5844CAb96A7b8B257Fc606Aa6119c5cBc6D4c4',
+            '0x5DBeaA03927255cA8aF5aD3821B2A170B44a25a5',
+            '0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5',
+            '0x1de305515a132Db0eD46E9fA2aD2804F066E43E3',
+            '0x5A341DCF49e161CC73591f02e5f8CDE8A29733fb',
+            '0x4Be8c674C51674bEb729832682bBA5E5b105b6e2',
+            '0xC001BBe2B87079294C63EcE98BdD0a88D761434e',
+            '0x988f7c894e4001eeb7b570cde80dffe21cf7b6b9',
+            '0xF04Cb10B76F1BF04B7954E2aF5D1ec3f4D967a68',
+            '0xcbd8aece0c920eef3f215ad4e7319052bd8eaa74',
+            '0xc41AB777C7d1d5e04414a14FC6Fa4c93766fb1Eb',
+            '0x21d9Cb3F11a19323C9f222A30Cf9471430f4AB54',
+            '0xebA996ad44A3Aef432a853D2D42f6bD30Bc7c990',
+            '0x4b7d697635e6b9965d13e0655F538149dE425F4E',
+            '0x69104fb28f4BB9f6efc899bd1d94f386CDF1b9dA',
+            '0x07335a076184c0453ae1987169d9c7ab7047a974',
+            '0x400e6d89d6Ca49Ad999A2D19c8a7AFc711002A2A',
+            '0xF14D3692B0055Db9Ca4c04065165d59B87E763f1',
+            '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+            '0x55d398326f99059fF775485246999027B3197955',
+            '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d',
+            '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+            '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c',
+            '0xCC42724C6683B7E57334c4E856f4c9965ED682bD',
+            '0x1CE0c2827e2eF14D5C4f29a091d735A204794041',
+            '0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402',
+            '0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE',
+            '0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47',
+            '0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63'
+        ];
+
+        const nameCalls = tokens.map((token: string) => ({
+            address: token,
+            name: 'name'
+        }));
+        const decimalsCalls = tokens.map((token: string) => ({
+            address: token,
+            name: 'decimals'
+        }));
+        const symbolCalls = tokens.map((token: string) => ({
+            address: token,
+            name: 'symbol'
+        }));
+        const nameResult = await multicallv2(BEP20ABI, nameCalls);
+        const decimalsResult = await multicallv2(BEP20ABI, decimalsCalls);
+        const symbolResult = await multicallv2(BEP20ABI, symbolCalls);
+        const tokensList = tokens.map((token: string, idx: number) => ({
+            chainId: 97,
+            address: token,
+            decimals: decimalsResult[idx][0].toNumber(),
+            symbol: symbolResult[idx][0],
+            name: nameResult[idx][0]
+        }));
+        console.log(JSON.stringify(tokensList));
+    })();
+}, []);

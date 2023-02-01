@@ -1,0 +1,228 @@
+[
+    {
+        "inputs": [
+            { "internalType": "address", "name": "_novationRouter", "type": "address" },
+            { "internalType": "address", "name": "_pcsRouter", "type": "address" }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            { "indexed": true, "internalType": "address", "name": "previousOwner", "type": "address" },
+            { "indexed": true, "internalType": "address", "name": "newOwner", "type": "address" }
+        ],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            { "internalType": "address", "name": "_pool", "type": "address" },
+            { "internalType": "string", "name": "_urls", "type": "string" }
+        ],
+        "name": "addPool",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [{ "internalType": "address", "name": "_router", "type": "address" }],
+        "name": "addRouter",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            { "internalType": "address", "name": "_token", "type": "address" },
+            { "internalType": "bool", "name": "_flag", "type": "bool" }
+        ],
+        "name": "approveToken",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "bnbFee",
+        "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "bnbFeeWallet",
+        "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            { "internalType": "address", "name": "_token", "type": "address" },
+            { "internalType": "string", "name": "_urls", "type": "string" },
+            {
+                "components": [
+                    { "internalType": "uint256", "name": "hardCap", "type": "uint256" },
+                    { "internalType": "uint256", "name": "softCap", "type": "uint256" },
+                    { "internalType": "uint256", "name": "minInvest", "type": "uint256" },
+                    { "internalType": "uint256", "name": "maxInvest", "type": "uint256" },
+                    { "internalType": "uint256", "name": "startTime", "type": "uint256" },
+                    { "internalType": "uint256", "name": "endTime", "type": "uint256" },
+                    { "internalType": "uint256", "name": "salePrice", "type": "uint256" },
+                    { "internalType": "uint256", "name": "listPrice", "type": "uint256" },
+                    { "internalType": "uint256", "name": "liquidityAlloc", "type": "uint256" },
+                    { "internalType": "bool", "name": "isBurnForUnsold", "type": "bool" }
+                ],
+                "internalType": "struct PoolParam",
+                "name": "_args",
+                "type": "tuple"
+            },
+            { "internalType": "address[]", "name": "_whitelist", "type": "address[]" },
+            { "internalType": "uint256", "name": "_router", "type": "uint256" }
+        ],
+        "name": "deploy",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "inputs": [{ "internalType": "address", "name": "_owner", "type": "address" }],
+        "name": "getPools",
+        "outputs": [{ "internalType": "address[]", "name": "", "type": "address[]" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "owner",
+        "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "poolCount",
+        "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [{ "internalType": "address", "name": "", "type": "address" }],
+        "name": "poolMap",
+        "outputs": [
+            { "internalType": "address", "name": "pool", "type": "address" },
+            { "internalType": "address", "name": "token", "type": "address" },
+            { "internalType": "string", "name": "urls", "type": "string" },
+            { "internalType": "address", "name": "owner", "type": "address" },
+            { "internalType": "uint256", "name": "createdAt", "type": "uint256" },
+            { "internalType": "bool", "name": "revoked", "type": "bool" }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+        "name": "pools",
+        "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "price",
+        "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    { "inputs": [], "name": "renounceOwnership", "outputs": [], "stateMutability": "nonpayable", "type": "function" },
+    {
+        "inputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+        "name": "routers",
+        "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            { "internalType": "uint256", "name": "_bnbFee", "type": "uint256" },
+            { "internalType": "uint256", "name": "_tokenFee", "type": "uint256" }
+        ],
+        "name": "setFee",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            { "internalType": "address", "name": "_bnbWallet", "type": "address" },
+            { "internalType": "address", "name": "_tokenWallet", "type": "address" }
+        ],
+        "name": "setFeeWallets",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            { "internalType": "address", "name": "_pool", "type": "address" },
+            { "internalType": "bool", "name": "_revoked", "type": "bool" }
+        ],
+        "name": "setRevoked",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "timestamp",
+        "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "tokenFee",
+        "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "tokenFeeWallet",
+        "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [{ "internalType": "address", "name": "newOwner", "type": "address" }],
+        "name": "transferOwnership",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            { "internalType": "address", "name": "_pool", "type": "address" },
+            { "internalType": "string", "name": "_urls", "type": "string" }
+        ],
+        "name": "updatePoolInfo",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [{ "internalType": "uint256", "name": "_price", "type": "uint256" }],
+        "name": "updatePrice",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [{ "internalType": "address", "name": "", "type": "address" }],
+        "name": "whitelist",
+        "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
